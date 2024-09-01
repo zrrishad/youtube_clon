@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+
+      <ImageView
+          android:layout_width="35dp"
+          android:layout_height="35dp"
+          android:src="@drawable/youtube"></ImageView>
+
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="35dp"
+   android:text="YouTube"
+    android:textSize="25dp"
+    android:textStyle="bold"></TextView>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_marginLeft="80dp"
+    android:layout_marginTop="5dp"
+    android:weightSum="30">
+
+
+  <LinearLayout
+      android:layout_width="35dp"
+      android:layout_height="35dp"
+     android:orientation="vertical"
+      android:layout_weight="10">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+       android:src="@drawable/wifi2"
+
+        ></ImageView>
+
+
+
+  </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="30dp"
+       android:orientation="vertical"
+       android:layout_weight="10">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="20dp"
+          android:src="@drawable/nitifi2"></ImageView>
+
+
+
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="35dp"
+       android:layout_height="35dp"
+       android:orientation="vertical"
+       android:layout_weight="10">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="20dp"
+          android:src="@drawable/search2"></ImageView>
+
+
+
+   </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+   </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="28dp"
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="50dp"
+           android:layout_height="match_parent"
+           android:text="All"
+           android:textColor="#000"
+           android:gravity="center"
+           android:background="@drawable/custom_style"
+          android:layout_marginLeft="5dp"></TextView>
+
+
+
+       <TextView
+           android:layout_width="65dp"
+           android:layout_height="match_parent"
+           android:text="Gaming"
+           android:textColor="#000"
+           android:gravity="center"
+
+           android:background="@drawable/custom_style"
+        android:layout_marginLeft="5dp"></TextView>
+
+
+       <TextView
+           android:layout_width="56dp"
+           android:layout_height="match_parent"
+           android:text="Music"
+           android:textColor="#000"
+           android:gravity="center"
+           android:background="@drawable/custom_style"
+           android:layout_marginLeft="5dp"></TextView>
+
+
+
+
+       <TextView
+           android:layout_width="105dp"
+           android:layout_height="match_parent"
+           android:text="Science fiction"
+           android:textColor="#000"
+           android:gravity="center"
+
+           android:background="@drawable/custom_style"
+           android:layout_marginLeft="5dp"></TextView>
+
+
+       <TextView
+           android:layout_width="70dp"
+           android:layout_height="match_parent"
+           android:text="Dubbing"
+           android:textColor="#000"
+           android:gravity="center"
+           android:background="@drawable/custom_style"
+           android:layout_marginLeft="5dp"></TextView>
+
+
+       <TextView
+           android:layout_width="110dp"
+           android:layout_height="match_parent"
+           android:text="Action Thrillers"
+           android:textColor="#000"
+           android:gravity="center"
+           android:background="@drawable/custom_style"
+           android:layout_marginLeft="5dp"></TextView>
+
+
+
+   </LinearLayout>
+</HorizontalScrollView>
+
+
+<ListView
+    android:id="@+id/edList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+</ListView>
+
+
+
+
+
+    </LinearLayout>
+
